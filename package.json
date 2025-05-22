@@ -1,0 +1,13 @@
+{
+  "name": "food_guess_api",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "hono": "^4.7.10"
+  },
+  "devDependencies": {
+    "vercel": "^25.2.0"
+  }
+}
