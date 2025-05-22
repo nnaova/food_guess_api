@@ -1,95 +1,122 @@
+// filepath: /home/naova/Documents/perso/food_guess_api/api/data/foods.ts
 import { Food } from '../types/food';
 
 // Liste des aliments que l'on peut trouver dans une collecte alimentaire
 export const foods: Food[] = [
   {
-    id: 1,
+    id: "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
     name: 'Riz',
-    category: 'Féculents',
     description: 'Riz blanc en sachet de 1kg',
-    nutritionalValue: 'Riche en glucides',
-    origin: 'France',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/rice.jpg'
   },
   {
-    id: 2,
+    id: "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7",
     name: 'Pâtes',
-    category: 'Féculents',
     description: 'Pâtes de blé dur en paquet de 500g',
-    nutritionalValue: 'Riche en glucides et protéines',
-    origin: 'Italie',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/pasta.jpg'
   },
   {
-    id: 3,
+    id: "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8",
     name: 'Conserve de thon',
-    category: 'Conserves',
     description: 'Thon au naturel en conserve de 160g',
-    nutritionalValue: 'Riche en protéines et omega-3',
-    origin: 'Océan Atlantique',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/tuna.jpg'
   },
   {
-    id: 4,
+    id: "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9",
     name: 'Lentilles',
-    category: 'Légumineuses',
     description: 'Lentilles vertes en sachet de 500g',
-    nutritionalValue: 'Riche en fibres et protéines végétales',
-    origin: 'France',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/lentils.jpg'
   },
   {
-    id: 5,
+    id: "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0",
     name: 'Conserve de haricots rouges',
-    category: 'Conserves',
     description: 'Haricots rouges en conserve de 400g',
-    nutritionalValue: 'Riche en fibres et protéines végétales',
-    origin: 'Espagne',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/red-beans.jpg'
   },
   {
-    id: 6,
+    id: "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1",
     name: 'Huile d\'olive',
-    category: 'Huiles',
     description: 'Huile d\'olive vierge extra en bouteille de 75cl',
-    nutritionalValue: 'Riche en acides gras mono-insaturés',
-    origin: 'Grèce',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/olive-oil.jpg'
   },
   {
-    id: 7,
+    id: "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2",
     name: 'Lait UHT',
-    category: 'Produits laitiers',
     description: 'Lait demi-écrémé en brique de 1L',
-    nutritionalValue: 'Source de calcium et protéines',
-    origin: 'France',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/milk.jpg'
   },
   {
-    id: 8,
+    id: "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3",
     name: 'Café moulu',
-    category: 'Boissons',
     description: 'Café moulu en paquet de 250g',
-    nutritionalValue: 'Contient de la caféine',
-    origin: 'Colombie',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/coffee.jpg'
   },
   {
-    id: 9,
+    id: "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4",
     name: 'Chocolat noir',
-    category: 'Sucreries',
     description: 'Chocolat noir 70% en tablette de 100g',
-    nutritionalValue: 'Riche en antioxydants',
-    origin: 'Côte d\'Ivoire',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/dark-chocolate.jpg'
   },
   {
-    id: 10,
+    id: "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5",
     name: 'Céréales petit-déjeuner',
-    category: 'Petit-déjeuner',
     description: 'Céréales complètes en boîte de 375g',
-    nutritionalValue: 'Source de fibres',
-    origin: 'Allemagne',
+    isScoring: false,
+    points: 1,
     imageUrl: '/images/foods/cereals.jpg'
+  },
+  // Ajout des exemples de l'application Flutter
+  {
+    id: "2c783a4d-3aa0-4bc6-b27f-b871524c8d83",
+    name: "tomate",
+    description: "",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "ecf6ab93-a9e2-41ff-a1ce-ba99f17cdc28",
+    name: "pomme",
+    description: "",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "26597547-b972-4259-98de-1e0cfdb1abcf",
+    name: "poire",
+    description: "",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "1f3caefb-5e17-4cbc-a4de-661d7c2ff473",
+    name: "pomme de terre",
+    description: "",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "de463d57-b2a4-4511-9832-756545b77af1",
+    name: "patate",
+    description: "",
+    isScoring: false,
+    points: 1
   }
 ];

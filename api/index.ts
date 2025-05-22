@@ -23,10 +23,12 @@ app.get('/', (c) => {
     version: '1.0.0',
     description: 'API pour l\'application Food Guess qui permet de récupérer les informations sur les aliments disponibles lors des collectes alimentaires.',
     endpoints: {
-      '/api/foods': 'Récupère la liste complète des aliments',
-      '/api/foods/:id': 'Récupère les détails d\'un aliment spécifique par son ID',
-      '/api/foods/categories': 'Récupère la liste de toutes les catégories d\'aliments',
-      '/api/foods/category/:category': 'Filtre les aliments par catégorie'
+      '/api/foods': 'Récupère la liste complète des aliments au format compatible avec l\'application Flutter',
+      '/api/foods/:id': 'Récupère les détails d\'un aliment spécifique par son UUID'
+    },
+    format: {
+      betItems: 'Tableau contenant les aliments',
+      exportDate: 'Date d\'exportation des données'
     },
     documentation: 'Cette API est en lecture seule et les données sont maintenues côté serveur pour garantir leur intégrité.',
     lastUpdated: new Date().toISOString()

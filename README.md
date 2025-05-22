@@ -44,19 +44,18 @@ Récupère la liste complète des aliments disponibles pour les collectes.
 
 ```json
 {
-  "success": true,
-  "data": [
+  "betItems": [
     {
-      "id": 1,
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
       "name": "Riz",
-      "category": "Féculents",
       "description": "Riz blanc en sachet de 1kg",
-      "nutritionalValue": "Riche en glucides",
-      "origin": "France",
+      "isScoring": false,
+      "points": 1,
       "imageUrl": "/images/foods/rice.jpg"
     }
     // ... autres aliments
-  ]
+  ],
+  "exportDate": "2025-05-22T16:18:23.023589"
 }
 ```
 
@@ -66,22 +65,23 @@ Récupère les informations d'un aliment spécifique par son identifiant.
 
 **Paramètres** :
 
-- `id` : Identifiant numérique de l'aliment
+- `id` : Identifiant unique (UUID) de l'aliment
 
 **Réponse** :
 
 ```json
 {
-  "success": true,
-  "data": {
-    "id": 1,
-    "name": "Riz",
-    "category": "Féculents",
-    "description": "Riz blanc en sachet de 1kg",
-    "nutritionalValue": "Riche en glucides",
-    "origin": "France",
-    "imageUrl": "/images/foods/rice.jpg"
-  }
+  "betItems": [
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "name": "Riz",
+      "description": "Riz blanc en sachet de 1kg",
+      "isScoring": false,
+      "points": 1,
+      "imageUrl": "/images/foods/rice.jpg"
+    }
+  ],
+  "exportDate": "2025-05-22T16:18:23.023589"
 }
 ```
 
