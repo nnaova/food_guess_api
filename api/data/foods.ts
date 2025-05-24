@@ -21,7 +21,7 @@ export const foods: Food[] = [
   },
   {
     id: "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8",
-    name: 'Conserve de thon',
+    name: 'Thon',
     description: 'Thon au naturel en conserve de 160g',
     isScoring: false,
     points: 1,
@@ -37,7 +37,7 @@ export const foods: Food[] = [
   },
   {
     id: "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0",
-    name: 'Conserve de haricots rouges',
+    name: 'Haricots rouges',
     description: 'Haricots rouges en conserve de 400g',
     isScoring: false,
     points: 1,
@@ -53,7 +53,7 @@ export const foods: Food[] = [
   },
   {
     id: "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2",
-    name: 'Lait UHT',
+    name: 'Lait',
     description: 'Lait demi-écrémé en brique de 1L',
     isScoring: false,
     points: 1,
@@ -61,7 +61,7 @@ export const foods: Food[] = [
   },
   {
     id: "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3",
-    name: 'Café moulu',
+    name: 'Café',
     description: 'Café moulu en paquet de 250g',
     isScoring: false,
     points: 1,
@@ -83,7 +83,6 @@ export const foods: Food[] = [
     points: 1,
     imageUrl: '/images/foods/cereals.jpg'
   },
-  // Ajout des exemples de l'application Flutter
   {
     id: "2c783a4d-3aa0-4bc6-b27f-b871524c8d83",
     name: "tomate",
@@ -119,8 +118,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- RACINES & TUBERCULES ---
   {
     id: "ff5d3a9d-6b8c-4e2a-8f7b-11dc452a9a3b",
     name: "Carottes",
@@ -163,8 +160,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- LÉGUMES-FEUILLES ---
   {
     id: "6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e",
     name: "Laitue",
@@ -207,8 +202,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- LÉGUMES-FLEURS ---
   {
     id: "c3d4e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8",
     name: "Brocoli",
@@ -232,13 +225,11 @@ export const foods: Food[] = [
   },
   {
     id: "f6a7b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1",
-    name: "Romanesco",
+    name: "Choux romanesco",
     description: "Légume-fleur vert à motif fractal",
     isScoring: false,
     points: 1
   },
-
-  // --- LÉGUMES-FRUITS ---
   {
     id: "a7b8c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2",
     name: "Poivrons",
@@ -267,8 +258,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- LÉGUMINEUSES FRAÎCHES ---
   {
     id: "e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6",
     name: "Haricots verts",
@@ -290,8 +279,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- ALLIACÉES ---
   {
     id: "b4c5d6e7-f8a9-b0c1-d2e3-f4a5b6c7d8e9",
     name: "Oignons",
@@ -320,8 +307,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- AUTRES LÉGUMES ---
   {
     id: "f8a9b0c1-d2e3-f4a5-b6c7-d8e9f0a1b2c3",
     name: "Chou rouge",
@@ -371,8 +356,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- FRUITS À PÉPINS ---
   {
     id: "a5b6c7d8-e9f0-a1b2-c3d4-e5f6a7b8c9d0",
     name: "Raisins",
@@ -380,8 +363,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- FRUITS À NOYAU ---
   {
     id: "b6c7d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1",
     name: "Pêches",
@@ -417,8 +398,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- AGRUMES ---
   {
     id: "a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6",
     name: "Oranges",
@@ -454,8 +433,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- FRUITS EXOTIQUES ---
   {
     id: "f6a7b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1",
     name: "Bananes",
@@ -505,8 +482,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- FRUITS ROUGES ---
   {
     id: "a3b4c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8",
     name: "Fraises",
@@ -535,8 +510,6 @@ export const foods: Food[] = [
     isScoring: false,
     points: 1
   },
-
-  // --- AUTRES FRUITS ---
   {
     id: "e7f8a9b0-c1d2-e3f4-a5b6-c7d8e9f0a1b2",
     name: "Melons",
@@ -562,6 +535,76 @@ export const foods: Food[] = [
     id: "b0c1d2e3-f4a5-b6c7-d8e9-f0a1b2c3d4e5",
     name: "Dattes fraîches",
     description: "Fruits oblongs très sucrés du palmier dattier",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6",
+    name: "Kinder Surprise",
+    description: "Œuf en chocolat avec surprise à l'intérieur",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k2d3e4f5-g6h7-i8j9-k0l1-m2n3o4p5q6r7",
+    name: "Kinder Bueno",
+    description: "Gaufrettes enrobées de chocolat au lait fourré à la crème de noisettes",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k3d4e5f6-g7h8-i9j0-k1l2-m3n4o5p6q7r8",
+    name: "Kinder Chocolat",
+    description: "Barres de chocolat au lait avec fourrage au lait",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k4d5e6f7-g8h9-i0j1-k2l3-m4n5o6p7q8r9",
+    name: "Kinder Country",
+    description: "Barres de céréales enrobées de chocolat au lait",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k5d6e7f8-g9h0-i1j2-k3l4-m5n6o7p8q9r0",
+    name: "Kinder Délice",
+    description: "Gâteau moelleux fourré recouvert de chocolat au lait",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k6d7e8f9-g0h1-i2j3-k4l5-m6n7o8p9q0r1",
+    name: "Kinder Maxi",
+    description: "Grandes barres de chocolat au lait avec fourrage au lait",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k7d8e9f0-g1h2-i3j4-k5l6-m7n8o9p0q1r2",
+    name: "Kinder Pingui",
+    description: "Gâteau fourré recouvert de chocolat en forme de pingouin",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k8d9e0f1-g2h3-i4j5-k6l7-m8n9o0p1q2r3",
+    name: "Kinder Schoko-Bons",
+    description: "Petites bouchées de chocolat et noisettes",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    name: "Kinder Happy Hippo",
+    description: "Gaufrettes en forme d'hippopotame fourrées à la crème",
+    isScoring: false,
+    points: 1
+  },
+  {
+    id: "k0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4r5",
+    name: "Kinder Cards",
+    description: "Fines gaufrettes fourrées à la crème au lait",
     isScoring: false,
     points: 1
   }
